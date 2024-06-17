@@ -30,8 +30,9 @@ ALLOWED_HOSTS = ['troya.pythonanywhere.com', 'furni-s.netlify.app']
 
 # Configurar los orígenes permitidos para CORS
 CORS_ALLOWED_ORIGINS = [
-    "https://furni-s.netlify.app/",
+    "https://furni-s.netlify.app",
     "http://localhost:5173",
+    "https://troya.pythonanywhere.com"
 ]
 
 # Application definition
