@@ -26,14 +26,12 @@ SECRET_KEY = 'django-insecure-r$*615$1m$i&fp**uzzs!$u3m(37be5@3-ql)xx9&w&-oi76it
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['troya.pythonanywhere.com']
+ALLOWED_HOSTS = ['troya.pythonanywhere.com', 'furni-s.netlify.app']
 
 # Configurar los orígenes permitidos para CORS
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # URL de tu aplicación React en desarrollo
-    "http://localhost",       # Puedes incluir localhost sin puerto si es necesario
-    "http://127.0.0.1",       # IP local
-    "http://[::1]",           # Dirección IPv6 local
+    "https://furni-s.netlify.app/",
+    "http://localhost:5173",
 ]
 
 # Application definition
